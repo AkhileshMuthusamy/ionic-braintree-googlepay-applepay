@@ -1,0 +1,7 @@
+{
+  "name": "ionic-braintree-googlepay-applepay",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
