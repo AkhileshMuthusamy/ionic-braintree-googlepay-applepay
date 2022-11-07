@@ -9,4 +9,13 @@ export class HomePage {
 
   constructor() {}
 
+  isApplePayAvailable() {
+    // @ts-ignore
+    window.cordova.plugins.BraintreeGooglePayApplePay.coolMethod("Hi Akhilesh!", (r) => {
+      console.log(r);
+    }, (r) => {
+      console.log(r);
+    });
+  }
+
 }
